@@ -1,0 +1,55 @@
+ul#bricks {
+	list-style: none;
+   position: relative;
+   margin: 0;
+	padding: 0;
+}
+
+ul#bricks li {
+	position: absolute;
+}
+
+ul#bricks li a{
+	display: block;
+	height: 100%;
+	text-decoration: none;
+}
+
+ul#bricks li a:active {
+   color: #000;
+}   
+
+ul#bricks li a:visited {
+   color: #000;
+}
+
+ul#bricks li a span {
+   display:none;
+}
+
+ul#bricks li a:hover span {
+	display: block;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 5px;
+	width: 160px;
+	height: 10px;
+	-moz-box-shadow: 2px 2px 2px #000;
+	-webkit-box-shadow: 2px 2px 2px #000;
+	box-shadow: 2px 2px 2px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#000000');
+	position: relative;
+	top: 25%;
+	font: 11px Arial, Helvetica, sans-serif;
+	font-style: bold;
+	color: #FFF;
+	z-index: 1;
+	text-align: center;
+}
+ul#bricks li#total {
+color: #FFFFFF; 
+font-size: 2.25em;
+}
